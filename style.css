@@ -1,0 +1,471 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: linear-gradient(to right, rgb(222, 248, 242), #ffffff);
+}
+
+.logo p{
+    color: rgb(18, 156, 110);
+    font-size: 32px;
+    margin: 0;
+}
+
+.main-menu-item{
+    list-style: none;
+}
+
+.main-menu-item a{
+    text-decoration: none;
+    color: rgba(35, 31, 31, 0.502);
+    text-transform: capitalize;
+}
+
+.main-menu-item-active a{
+    color: rgb(4, 20, 34);
+}
+
+.btn {
+    color: rgba(35, 31, 31, 0.502);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.banner-description{
+    /* border: 1px solid red; */
+}
+.btn-info{
+    background: rgba(18, 156, 110, 0.8);
+    color: #fff;
+}
+
+.btn-danger{
+    background: rgba(156, 34, 18, 0.8);
+    color: #fff;
+}
+
+.btn-warning{
+    background: rgba(156, 96, 18, 0.8);
+    color: #fff;
+}
+
+.banner-description-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.banner-description-break{
+    width: 100%;
+    border: 1px solid rgba(18, 156, 110, 0.8);
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+}
+.banner-description-content{
+    font-weight: 700;
+}
+
+.btn-round{
+    border-radius: 50px;
+}
+
+.text-grey{
+    color: #aaa;
+}
+
+.form-control-input{
+    border: none;
+    border-bottom: 1px solid #dadada;
+}
+.btn-sm{
+    padding: 5px;
+    width: 80px;
+    height: 25px;
+    font-size: 14px;
+}
+
+/* COMMON */
+.card-monney {
+    box-shadow: 1px 2px 4px 2px #d1d1d1;
+    padding: 0 10px;
+    border-radius: 10px;
+
+    display: flex;
+}
+
+.boxshaddown1 {
+    box-shadow: 2px 2px 2px 2px #f0f0f0;
+}
+
+.boxshaddown2 {
+    box-shadow: 0px 4px 8px 8px #f0f0f0;
+}
+
+.btn-info{
+    background: rgba(18, 156, 110, 0.8);
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn-danger{
+    background-color: #fff;
+    color: rgba(35, 31, 31, 0.502);
+    font-size: 18px;
+}
+
+.btn-warning{
+    background: rgba(18, 156, 110, 0.8);
+    color: #fff;
+}
+
+.text-title {
+    font-weight: bold;
+}
+
+.text-sub {
+    color: #6d6d6d;
+}
+
+.line-height-desc {
+    line-height: 1.6;
+    color: #6d6d6d;
+}
+
+/* CUSTOM */
+.header-top {
+    width: 80%;
+    min-height: 80px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.header-menu {
+    flex: 1;
+    display: flex;
+}
+
+.main-menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.main-menu-item {
+    padding: 0 15px;
+}
+
+.header-bottom {
+    display: flex;
+
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.banner-description {
+    width: 45%;
+}
+
+.banner-image-wrap {
+    width: 55%;
+}
+
+.banner-img {
+    width: 70%;
+    margin-left: 30%;
+
+    position: relative;
+}
+
+.banner-image--person {
+    width: 100%;
+}
+
+.banner-image--card {
+    position: absolute;
+    width: 230px;
+
+    top: 40%;
+    right: -100px;
+    rotate: 20deg;
+}
+.enter-amount {
+    width: 200px;
+    padding: 15px 10px;
+
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: -150px;
+}
+
+.total-income {
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    left: -100px;
+}
+
+/* MAIN */
+.main {
+    background: linear-gradient(to right, rgb(222, 248, 242), #ffffff);
+}
+
+.main-text {
+    position: relative;
+    padding: 0px;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.company {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.company-icon {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.campany-icon-img {
+    object-fit: contain;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.introduce {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.introduce-text {
+    /* padding: 0 50px; */
+    margin-right: 40px;
+}
+
+.star {
+    width: 16px;
+}
+.rating {
+    margin-top: 50px;
+    display: flex;
+}
+
+.list {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.list-push {
+    width: 15%;
+    text-align: right;
+}
+
+.list-icon {
+    width: 80%;
+    margin-right: 10px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.feature-text {
+    margin-right: 30px;
+}
+
+.feature-content {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.feature-content-list {
+    width: 33.33%;
+    margin: 0 40px;
+}
+
+.feature-img-wrap {
+    text-align: center;
+}
+
+.feature-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.benifit {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.benifit-content {
+    width: 50%;
+}
+
+.benifit-banner {
+    width: 50%;
+    position: relative;
+}
+
+.benifit-text {
+    padding: 0 20px 20px;
+}
+
+.benifit-img {
+    right: 0px;
+    width: 80%;
+    margin-left: 20%;
+}
+
+.benifit-des-total-income {
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    right: -50px;
+}
+
+
+.benifit-des1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 60px;
+    width: 250px;
+    top: 50px;
+    background-color: white;
+    padding: 15px 10px ;
+}
+
+.benifit-des2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    top: 60%;
+    left: 90px;
+    padding: 15px 10px ;
+}
+
+.benifir-img-per {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.plan {
+    width: 100%;
+}
+
+.plan-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 18px;
+}
+
+.plan-title-2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 18px 0 40px;
+}
+
+.plan-text {
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.plan-box {
+    display: flex;
+}
+
+.card-buy {
+    width: 33.33%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: black;
+    color: #fff;
+    display: flex;
+}
+
+.contact-text {
+    position: relative;
+    text-align: center;
+    bottom: 450px;
+}
+
+.contact-info {
+    position: relative;
+    bottom: 450px;
+    margin-left: 200px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer-intro {
+    width: 500px;
+    padding: 0 50px;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-text {
+    padding:  50px;
+}
+
+.link-contact {
+    display: flex;
+}
+
+.btn-round{
+    border-radius: 50px;
+}
+
+.text-grey{
+    color: #aaa;
+}
+
+.form-control-input{
+    border: none;
+    border-bottom: 1px solid #aaa;
+}
+.btn-sm{
+    padding: 5px;
+    width: 80px;
+    height: 25px;
+    font-size: 14px;
+}
